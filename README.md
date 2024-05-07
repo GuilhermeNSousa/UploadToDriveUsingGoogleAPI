@@ -39,6 +39,7 @@ Na parte do código, antes de tudo, precisamos baixar o pacote <b>Google.Apis.Dr
 * III. Método <b>ObtemAutorizacao</b>:
   
   * Neste método, solicitamos autorização com a conta Google dona das credenciais .json baixadas no inínio da documentação. A variável <b>tokenStorage</b> fará com que os tokens gerados pelo método, sejam armazenados dentro da pasta %appdata%. Este método abrirá uma tela no navegador e você deverá logar com a conta dona das credenciais. Será retornado as credenciais.
+  * Importante: Em "caminhoDasCredenciais", utilize o caminho "NomeDoProjeto\bin\Debug" para armazenar o arquivo JSON, e quando declarar a string, coloque somente o nome do arquivo com .json no final.
 
 * IV. Método <b>CriaDriveService</b>
 
