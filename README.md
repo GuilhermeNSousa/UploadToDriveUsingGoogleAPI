@@ -10,6 +10,7 @@ Para podermos iniciar o projeto, precisamos inicialmente criar e configurar um p
 * Na aba <b>Ativar APIs e serviços</b>, ative a Google Drive API
 * Na mesma tela, clique em <b>Criar credenciais</b>, selecionando Dados do usuário, preenchendo todos os campos obrigatórios, não colocando escopos e em ID do Cliente OAuth, selecione "App para Computador"
 * Baixe as credenciais, pois elas serão necessárias para o funcionamento do projeto.
+* Na aba <b>OAuth consent screen</b>, publique o projeto.
 
 Na parte do código, antes de tudo, precisamos baixar o pacote <b>Google.Apis.Drive.v3</b> através do NuGet, para conseguirmos executar o código.
 
